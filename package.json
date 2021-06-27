@@ -1,5 +1,5 @@
 {
-  "name": "eslint-plugin-vue-require-id-attr",
+  "name": "@int-component/eslint-plugin-vue-require-id-attr",
   "version": "1.0.0",
   "description": "require id attr for specific element",
   "keywords": [
@@ -7,7 +7,9 @@
     "eslintplugin",
     "eslint-plugin"
   ],
-  "files": ["lib"],
+  "files": [
+    "lib"
+  ],
   "author": "Linker",
   "main": "lib/index.js",
   "scripts": {

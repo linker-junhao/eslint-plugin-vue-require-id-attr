@@ -10,10 +10,10 @@ You'll first need to install [ESLint](http://eslint.org):
 $ npm i eslint --save-dev
 ```
 
-Next, install `eslint-plugin-vue-require-id-attr`:
+Next, install `@int-component/eslint-plugin-vue-require-id-attr`:
 
 ```
-$ npm install eslint-plugin-vue-require-id-attr --save-dev
+$ npm install @int-component/eslint-plugin-vue-require-id-attr --save-dev
 ```
 
 

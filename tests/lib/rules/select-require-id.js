@@ -48,13 +48,15 @@ ruleTester.run("select-require-id", rule, {
 
     invalid: [
         {
+            filename: 'test.vue',
             code: '<template><Select :value="test" other="what"></Select></template>',
-            output: '<template><Select id="test-select" :value="test" other="what"></Select></template>',
+            output: '<template><Select id="test-test-select-0" :value="test" other="what"></Select></template>',
             errors: ['select with value prop or v-model directive require id attr']
         },
         {
+            filename: 'test.vue',
             code: '<template><Select v-model="test" other="what"></Select></template>',
-            output: '<template><Select id="test-select" v-model="test" other="what"></Select></template>',
+            output: '<template><Select id="test-test-select-0" v-model="test" other="what"></Select></template>',
             errors: ['select with value prop or v-model directive require id attr']
         }
     ]
