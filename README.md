@@ -19,12 +19,12 @@ $ npm install @int-component/eslint-plugin-vue-require-id-attr --save-dev
 
 ## Usage
 
-Add `vue-require-id-attr` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
+Add `@int-component/eslint-plugin-vue-require-id-attr` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
 
 ```json
 {
     "plugins": [
-        "vue-require-id-attr"
+        "@int-component/eslint-plugin-vue-require-id-attrr"
     ]
 }
 ```
@@ -35,7 +35,8 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
     "rules": {
-        "vue-require-id-attr/rule-name": 2
+        "@int-component/vue-require-id-attr/button-require-id": 2,
+        "@int-component/vue-require-id-attr/select-require-id": 2
     }
 }
 ```
