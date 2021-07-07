@@ -46,9 +46,10 @@ ruleTester.run('button-require-id', rule, {
     invalid: [
         {
             filename: 'test.vue',
-            code: '<template><Button @click="run">a btn</Button></template>',
-            output: '<template><Button id="test-run-btn-0" @click="run">a btn</Button></template>',
-            errors: ["id attribute should on Button"]
+            code: '<template><Button @click="run">a btn</Button><button @click="go">go btn</button></template>',
+            output: '<template><Button id="test-run-btn-0" @click="run">a btn</Button><button id="test-go-btn-0" @click="go">go btn</button></template>',
+            options: ['Button', 'button'],
+            errors: ["id attribute should on Button", "id attribute should on Button"]
         }
     ]
 })
