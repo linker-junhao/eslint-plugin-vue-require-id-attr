@@ -5,7 +5,7 @@ basically, this plugin is a set of rule to decide the id attr value. you can set
 ```
 // example:
 // the node with rawName 'button', 'Button' and 'whatever' will apply this rule.
-"@int-component/vue-require-id-attr/button-require-id": [2, "button", "Button", "whatever"]
+"@int-component/vue-require-id-attr/button-require-id": [2, ["button", "Button", "whatever"]]
 ```
 
 ## Update

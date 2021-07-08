@@ -2,6 +2,10 @@
   "name": "@int-component/eslint-plugin-vue-require-id-attr",
   "version": "1.2.0",
   "description": "require id attr for specific element",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linkerGitHub/eslint-plugin-vue-require-id-attr.git"
+  },
   "keywords": [
     "eslint",
     "eslintplugin",
