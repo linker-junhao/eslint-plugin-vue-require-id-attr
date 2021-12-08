@@ -47,7 +47,9 @@ Then configure the rules you want to use under the rules section.
     "rules": {
         "@int-component/vue-require-id-attr/button-require-id": 2,
         "@int-component/vue-require-id-attr/select-require-id": 2,
-        "@int-component/vue-require-id-attr/tabpane-require-id": 2
+        "@int-component/vue-require-id-attr/tabpane-require-id": 2,
+        "@int-component/vue-require-id-attr/option-require-name": 2,
+        "@int-component/vue-require-id-attr/input-require-id": 2,
     }
 }
 ```
@@ -57,6 +59,8 @@ Then configure the rules you want to use under the rules section.
 * @int-component/vue-require-id-attr/button-require-id
 * @int-component/vue-require-id-attr/select-require-id
 * @int-component/vue-require-id-attr/tabpane-require-id
+* @int-component/vue-require-id-attr/option-require-name
+* @int-component/vue-require-id-attr/input-require-id
 
 ## todo
 [ ] the description for the logic of rule that how to decide id value.(now you can only get it from reading source code)
